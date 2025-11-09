@@ -10,7 +10,7 @@ nomes = "Andressa de Oliveira Barros"
 @app.route("/")
 def home():
     return """
-    <h1>Servidor de Métricas - SO em Cloud</h1>
+    <h1>SO em Cloud</h1>
     <p>Escolha uma rota:</p>
     <ul>
         <li><a href="/info">/info - Mostrar integrantes da equipe</a></li>
