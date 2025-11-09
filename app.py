@@ -5,7 +5,7 @@ import psutil
 
 app = Flask(__name__)
 
-nomes = "Andressa de Oliveira Barros"
+nome = "Andressa de Oliveira Barros"
 
 @app.route("/")
 def home():
@@ -20,7 +20,7 @@ def home():
 
 @app.route("/info")
 def info():
-    return f"Integrantes da equipe: {nomes}"
+    return f"Integrante: {nome}"
 
 @app.route("/metricas")
 def metricas():
